@@ -1,6 +1,6 @@
 using System;
 
-namespace EfCoreTest
+namespace EfCoreTest.Api
 {
     public class WeatherForecast
     {

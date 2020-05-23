@@ -5,6 +5,8 @@
     <UserSecretsId>aspnet-EfCoreTest-7b5f73db-1081-416b-92f2-8aae6e93bb89</UserSecretsId>
     <WebProject_DirectoryAccessLevelKey>1</WebProject_DirectoryAccessLevelKey>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <AssemblyName>EfCoreTest.Api</AssemblyName>
+    <RootNamespace>EfCoreTest.Api</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
