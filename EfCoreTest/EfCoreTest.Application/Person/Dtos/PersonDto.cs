@@ -6,5 +6,6 @@ namespace EfCoreTest.Application.Person.Dtos
 {
     public class PersonDto
     {
+        public string FullName { get; internal set; }
     }
 }

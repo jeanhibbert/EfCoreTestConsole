@@ -1,10 +1,12 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace EfCoreTest.Persistence.Infrastructure
 {
-    public class EfCoreTestContextModel : ContextModelBase
+    public class EfCoreTestContextModel : ContextModelBase, IEfCoreTestContextReadonly, IEfCoreTestContextWriteable
     {
         private readonly EfCoreTestContext _efCoreTestContext;
 
@@ -13,7 +15,8 @@ namespace EfCoreTest.Persistence.Infrastructure
             _efCoreTestContext = efCoreTestContext;
         }
 
+        public IQueryable<Person> Persons => _efCoreTestContext.People;
 
-
+        DbSet<Person> IEfCoreTestContextWriteable.Persons => _efCoreTestContext.People;
     }
 }

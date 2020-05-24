@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Linq;
 
 namespace EfCoreTest.Persistence.Infrastructure
 {
     public interface IEfCoreTestContextReadonly : IDbContextReadonly
     {
+        IQueryable<Person> Persons { get; }
     }
 }
