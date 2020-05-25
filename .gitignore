@@ -9,3 +9,5 @@
 /EfCoreTest/EfCoreTest.Application/bin/Debug/netstandard2.0
 /EfCoreTest/EfCoreTest.Persistence/bin/Debug/netstandard2.0
 /EfCoreTest/EfCoreTest.Persistence/obj
+/EfCoreTest/EfCoreTest.Tests/bin/Debug/netcoreapp3.1
+/EfCoreTest/EfCoreTest.Tests/obj
