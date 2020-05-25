@@ -1,0 +1,67 @@
+﻿{
+   "ContextClassName": "EfCoreTestContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "DoNotCombineNamespace": false,
+   "IdReplace": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": null,
+   "ProjectRootNamespace": "EfCoreTest.Persistence",
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Person].[Address]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Person].[AddressType]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Person].[BusinessEntity]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Person].[BusinessEntityAddress]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Person].[BusinessEntityContact]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Person].[ContactType]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Person].[CountryRegion]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Person].[EmailAddress]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Person].[Password]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Person].[Person]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Person].[PersonPhone]"
+      }
+   ],
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseSpatial": false
+}
